@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+:root{
+    --color0: #262640;
+    --color1: #474677;
+    --color2: #7F7F8E;
+    --color3: #0300C9;
+    --color4: #7574C4;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, html {
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+}
+
+.my-img{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.name-area{
+    position: relative;
+    top: -17vh;
+    left: 20vw;
+}
+
+
